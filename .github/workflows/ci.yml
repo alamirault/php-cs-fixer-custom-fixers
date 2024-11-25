@@ -25,6 +25,9 @@ jobs:
           - php-version: '8.3'
             composer-flags: '--ignore-platform-req=php'
 
+          - php-version: '8.4'
+            composer-flags: '--ignore-platform-req=php'
+
     name: PHP ${{ matrix.php-version }} ${{ matrix.job-description }}
 
     steps:
